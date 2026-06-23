@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shruti Sharma | Full Stack Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="pointer-spotlight" id="spotlight"></div>
+
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+
+    <header class="navbar-container" id="navbar">
+        <nav class="navbar">
+            <a href="#home" class="nav-logo">ShrutiSharma<span class="gradient-text">.</span></a>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#journey" class="nav-link">Journey</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero-section section-padding">
+            <div class="container hero-grid">
+                <div class="hero-content reveal">
+                    <span class="subtitle-badge">Available for Internships</span>
+                    <h1 class="hero-title">Hi, I'm Shruti Sharma!!</h1>
+                    <h2 class="hero-subtitle">
+                        <span class="typewriter" id="typewriter"></span><span class="cursor">|</span>
+                    </h2>
+                    <p class="hero-description">
+                        Computer Science & Design student passionate about building modern web applications using the MERN stack while continuously improving problem-solving skills through Java and Data Structures & Algorithms.
+                    </p>
+                    <div class="hero-ctas">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                        <a href="resume.pdf" class="btn btn-link" download>
+                            Download Resume 
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-visual reveal">
+                    <div class="profile-card-wrapper">
+                        <div class="profile-card">
+                            <div class="profile-img-container">
+                                <img src="my-photo.jpeg" alt="Shruti" class="profile-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                                <svg class="profile-fallback-avatar" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:none;">
+                                    <circle cx="50" cy="50" r="50" fill="url(#avatarGrad)" opacity="0.15"/>
+                                    <path d="M50 20C40.06 20 32 28.06 32 38C32 46.13 37.42 52.99 44.83 55.22C31.75 58.07 22 68.4 22 81C22 81.55 22.45 82 23 82H77C77.55 82 78 81.55 78 81C78 68.4 68.25 58.07 55.17 55.22C62.58 52.99 68 46.13 68 38C68 28.06 59.94 20 50 20Z" fill="url(#avatarGrad)"/>
+                                    <defs>
+                                        <linearGradient id="avatarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                            <stop offset="0%" stop-color="#3b82f6"/>
+                                            <stop offset="100%" stop-color="#a855f7"/>
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container ach-grid section-margin-top reveal">
+                <div class="ach-card">
+                    <div class="ach-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+                    </div>
+                    <h3>Google Gemini Student Ambassador</h3>
+                    <p>Driving AI awareness and student tech community engagement initiatives.</p>
+                </div>
+                <div class="ach-card">
+                    <div class="ach-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+                    </div>
+                    <h3>Full Stack Development Intern</h3>
+                    <p>Gaining hands-on engineering experience building functional modules.</p>
+                </div>
+                <div class="ach-card">
+                    <div class="ach-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+                    </div>
+                    <h3>MERN Stack Developer</h3>
+                    <p>Building highly interactive and responsive application interfaces.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section section-padding border-top">
+            <div class="container container-narrow reveal">
+                <div class="section-header">
+                    <h2 class="section-title">About Me</h2>
+                </div>
+                <div class="glass-card about-card">
+                    <p class="about-text">
+                        I'm a B.Tech Computer Science & Design student who enjoys building practical web applications and exploring full-stack development. Currently, I'm learning the MERN Stack, improving my Java and DSA skills, and building projects that help me gain hands-on development experience.
+                    </p>
+                    <div class="focus-areas">
+                        <h3>Current Focus Areas:</h3>
+                        <div class="focus-grid">
+                            <div class="focus-item">
+                                <span class="focus-dot"></span>
+                                <span>MERN Stack Development</span>
+                            </div>
+                            <div class="focus-item">
+                                <span class="focus-dot"></span>
+                                <span>Java Programming</span>
+                            </div>
+                            <div class="focus-item">
+                                <span class="focus-dot"></span>
+                                <span>Data Structures & Algorithms</span>
+                            </div>
+                            <div class="focus-item">
+                                <span class="focus-dot"></span>
+                                <span>Real-world Projects</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section section-padding border-top">
+            <div class="container reveal">
+                <div class="section-header">
+                    <h2 class="section-title">Technical Skills</h2>
+                </div>
+                
+                <div class="skills-grid">
+                    <div class="skill-category-card">
+                        <h3>Languages</h3>
+                        <div class="skill-list">
+                            <div class="skill-tag-item"><span>Java</span><span class="skill-indicator strong"></span></div>
+                            <div class="skill-tag-item"><span>JavaScript</span><span class="skill-indicator strong"></span></div>
+                            <div class="skill-tag-item"><span>HTML</span><span class="skill-indicator strong"></span></div>
+                            <div class="skill-tag-item"><span>CSS</span><span class="skill-indicator strong"></span></div>
+                        </div>
+                    </div>
+                    <div class="skill-category-card">
+                        <h3>Frontend</h3>
+                        <div class="skill-list">
+                            <div class="skill-tag-item"><span>React.js</span><span class="skill-indicator strong"></span></div>
+                            <div class="skill-tag-item"><span>Tailwind CSS</span><span class="skill-indicator strong"></span></div>
+                        </div>
+                    </div>
+                    <div class="skill-category-card">
+                        <h3>Backend</h3>
+                        <div class="skill-list">
+                            <div class="skill-tag-item"><span>Node.js</span><span class="skill-indicator medium"></span></div>
+                            <div class="skill-tag-item"><span>Express.js</span><span class="skill-indicator medium"></span></div>
+                            <div class="skill-tag-item"><span>MongoDB</span><span class="skill-indicator medium"></span></div>
+                        </div>
+                    </div>
+                    <div class="skill-category-card">
+                        <h3>Tools</h3>
+                        <div class="skill-list">
+                            <div class="skill-tag-item"><span>Git</span><span class="skill-indicator strong"></span></div>
+                            <div class="skill-tag-item"><span>GitHub</span><span class="skill-indicator strong"></span></div>
+                            <div class="skill-tag-item"><span>Postman</span><span class="skill-indicator strong"></span></div>
+                            <div class="skill-tag-item"><span>VS Code</span><span class="skill-indicator strong"></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="experience-section section-padding border-top">
+            <div class="container container-narrow reveal">
+                <div class="section-header">
+                    <h2 class="section-title">Experience</h2>
+                </div>
+
+                <div class="experience-timeline">
+                    <div class="exp-card glass-card">
+                        <div class="exp-header">
+                            <div>
+                                <h3 class="exp-role">Google Gemini Student Ambassador</h3>
+                                <h4 class="exp-company text-gradient-blue">Google Student Community Program</h4>
+                            </div>
+                            <span class="exp-date">May 2026 – September 2026</span>
+                        </div>
+                        <p class="exp-description">
+                            Participated in AI-focused student initiatives, community engagement activities, and technology awareness programs while representing the Google Gemini Student Ambassador program.
+                        </p>
+                    </div>
+
+                    <div class="exp-card glass-card">
+                        <div class="exp-header">
+                            <div>
+                                <h3 class="exp-role">Full Stack Development Intern</h3>
+                                <h4 class="exp-company text-gradient-purple">Prodigy Infotech</h4>
+                            </div>
+                            <span class="exp-date">June 2026 - July 2026</span>
+                        </div>
+                        <p class="exp-description">
+                            Worked on full-stack development tasks, improved practical development skills, and gained hands-on experience building web applications.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section section-padding border-top">
+            <div class="container reveal">
+                <div class="section-header">
+                    <h2 class="section-title">Featured Projects</h2>
+                </div>
+
+                <div class="projects-grid">
+                    <div class="project-product-card glass-card">
+                        <div class="project-banner auth-banner">
+                            <img src="auth-project.png" alt="User Authentication - Signup Interface" class="project-banner-img">
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-name">Secure User Authentication System</h3>
+                            <p class="project-desc">
+                                <li>A complete authentication engine handling registration</li>
+                                <li>Secure login system setup</li>
+                                <li>JWT token management</li>
+                                <li>Protected routes</li>
+                            </p>
+                            <br>
+                            <div class="project-tech-badges">
+                                <span class="badge">React.js</span>
+                                <span class="badge">Node.js</span>
+                                <span class="badge">Express.js</span>
+                                <span class="badge">MongoDB</span>
+                                <span class="badge">JWT</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://prodigy-fs-01-ui.vercel.app" class="btn btn-secondary btn-sm" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                                <a href="https://github.com/starshruti2510/PRODIGY_FS_01" class="btn btn-link btn-sm" target="_blank" rel="noopener noreferrer">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-product-card glass-card">
+                        <div class="project-banner invoice-banner">
+                            <div class="banner-ui-mockup">
+                                <div class="mock-sheet">
+                                    <div class="mock-line long"></div>
+                                    <div class="mock-line text-right"></div>
+                                    <div class="mock-line text-right"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-name">Invoice & GST Calculator</h3>
+                            <p class="project-desc">
+                                <li>A responsive tool designed for automated calculation configurations</li>
+                                <li>Explicit GST evaluation tables</li>
+                                <li>Invoice creation summaries</li>
+                                <li>Direct PDF generation downloads</li>
+                            </p>
+                            <br>
+                            <div class="project-tech-badges">
+                                <span class="badge">JavaScript</span>
+                                <span class="badge">HTML5</span>
+                                <span class="badge">CSS3</span>
+                                <span class="badge">PDF Engine</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-secondary btn-sm">Live Demo</a>
+                                <a href="#" class="btn btn-link btn-sm">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-product-card glass-card currently-building-card">
+                        <div class="project-banner building-banner">
+                            <div class="building-glow-badge">
+                                <span class="pulse-dot"></span>
+                                <span>In Development</span>
+                            </div>
+                            <h4 class="banner-title-text">🚀 Currently Building</h4>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-name">Employee Management System</h3>
+                            <p class="project-desc">
+                                <li>Currently building a MERN-powered employee management platform</li>
+                                <li>Authentication</li>
+                                <li>Department management</li>
+                                <li>Real-world CRUD operations</li>
+                            </p>
+                            <br>
+                            <div class="project-tech-badges">
+                                <span class="badge">React</span>
+                                <span class="badge">Node.js</span>
+                                <span class="badge">Express.js</span>
+                                <span class="badge">MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="journey" class="journey-section section-padding border-top">
+            <div class="container reveal">
+                <div class="section-header">
+                    <h2 class="section-title">My Learning Journey</h2>
+                </div>
+
+                <div class="timeline-tree">
+                    <div class="timeline-spine"></div>
+
+                    <div class="timeline-node left-node">
+                        <div class="timeline-marker"><span class="marker-core"></span></div>
+                        <div class="timeline-box glass-card">
+                            <span class="timeline-year">2024</span>
+                            <ul class="timeline-points">
+                                <li>Started B.Tech in Computer Science & Design</li>
+                                <li>Began exploring programming fundamentals</li>
+                                <li>Started learning web development basics</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-node right-node">
+                        <div class="timeline-marker"><span class="marker-core"></span></div>
+                        <div class="timeline-box glass-card">
+                            <span class="timeline-year">2025</span>
+                            <ul class="timeline-points">
+                                <li>Learned HTML, CSS, and JavaScript</li>
+                                <li>Built small frontend projects</li>
+                                <li>Started learning React</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-node left-node">
+                        <div class="timeline-marker"><span class="marker-core"></span></div>
+                        <div class="timeline-box glass-card">
+                            <span class="timeline-year">2026</span>
+                            <ul class="timeline-points">
+                                <li>Started learning the MERN Stack</li>
+                                <li>Selected as a Google Gemini Student Ambassador</li>
+                                <li>Completed a Full Stack Development Internship at Prodigy Infotech</li>
+                                <li>Built a Secure User Authentication System using React, Node.js, Express.js, MongoDB, and JWT</li>
+                                <li>Built a Invoice & GST Calculator using MERN</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-node right-node">
+                        <div class="timeline-marker"><span class="marker-core"></span></div>
+                        <div class="timeline-box glass-card">
+                            <span class="timeline-year">Present</span>
+                            <ul class="timeline-points">
+                                <li>Building an Employee Management System</li>
+                                <li>Improving Java skills</li>
+                                <li>Practicing Data Structures & Algorithms</li>
+                                <li>Continuing full-stack development learning</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section section-padding border-top">
+            <div class="container container-narrow reveal">
+                <div class="section-header">
+                    <h2 class="section-title">Let's Connect</h2>
+                </div>
+
+                <div class="recruiter-badge-panel">
+                    <div class="hiring-badge"><span class="pulse-dot-purple"></span> Open to Internships</div>
+                    <div class="hiring-badge"><span class="pulse-dot-purple"></span> Open to Collaborations</div>
+                </div>
+
+                <div class="contact-cards-grid section-margin-top">
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=shrutisharma87860@gmail.com"
+   target="_blank"
+   rel="noopener noreferrer" class="contact-link-card glass-card">
+                        <div class="contact-icon-box">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                        </div>
+                        <span class="contact-lbl">Email</span>
+                        <span class="contact-val">shrutisharma87860@gmail.com</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/shruti-java-dev" target="_blank" rel="noopener" class="contact-link-card glass-card">
+                        <div class="contact-icon-box">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                        </div>
+                        <span class="contact-lbl">LinkedIn</span>
+                        <span class="contact-val">linkedin.com/in/shruti-java-dev</span>
+                    </a>
+                    <a href="https://github.com/starshruti2510" target="_blank" rel="noopener" class="contact-link-card glass-card">
+                        <div class="contact-icon-box">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                        </div>
+                        <span class="contact-lbl">GitHub</span>
+                        <span class="contact-val">github.com/starshruti2510</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer border-top">
+        <div class="container footer-content">
+            <div>
+                <span class="footer-logo">ShrutiSharma<span class="gradient-text">.</span></span>
+                <p class="footer-tagline">Continuously learning and building through real-world projects.</p>
+            </div>
+            <div class="footer-right">
+                <p class="copyright">&copy; 2026 ShrutiSharma. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
