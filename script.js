@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Clean Typing Animation Engine ---
     const phrases = [
         "MERN Stack Developer",
-        "Full Stack Enthusiast",
+        "Building Real-World Projects",
         "Java & DSA Learner"
     ];
     let phraseIdx = 0;
